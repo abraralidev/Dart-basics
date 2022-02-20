@@ -1,5 +1,22 @@
+import 'dart:html';
+
 void main(){
-  //------------------------- if else Statement----------------------------
+  //------------------------- Statements----------------------------
+  // if statement 
+  int a = 5;
+ if (a==5) {
+   print(true);
+ }
+  // if else statement
+  int b = 10;
+  if (b==10){
+    print(true);
+  }else
+  {
+    print(false);
+  }
+
+ 
  /* 
  ---syntax of if else statement 
 if(test expression){
@@ -9,13 +26,7 @@ if(test expression){
    }
 
 */
-//example of if else statement
-int a = 5;
- if (a==5) {
-   print(true);
- } 
- else {
-   print(false);
- }
+
+ // if else if statement
  
 }
