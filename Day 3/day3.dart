@@ -15,8 +15,6 @@ void main(){
   {
     print(false);
   }
-
- 
  /* 
  ---syntax of if else statement 
 if(test expression){
@@ -28,5 +26,22 @@ if(test expression){
 */
 
  // if else if statement
- 
-}
+ //for example
+var marks = 76;     
+if(marks > 85)  
+{  
+       print("Excellent");  
+}  
+ else if(marks>75)  
+{  
+      print("Very Good");  
+}   
+else if(marks>65)  
+{  
+      print("Good");  
+}  
+else  
+ {  
+      print("Average");  
+}  
+}  
