@@ -1,5 +1,10 @@
-import 'dart:ffi';
+
+
 void main(){
+//---------------------------NUMBER------------------------
+//The dart number is used to store the numeric values the number can be two types 
+// --integer       = Integer values represent the whole number or non-fractional values
+// --double        = Double value represents the 64-bit of information (double-precision) for floating number or number with the large decimal points. 
 // int 
   int a = 79;
   print(a);
@@ -8,31 +13,48 @@ void main(){
 double b = 28.84;
 print(b);
 
-//string
+//--------------------------string---------------------------
+// A string is the sequence of the character. If we store the data like - name, address, special character, etc. It is signified by using either single quotes or double quotes. 
 String str1 = 'this is a single line string';
 print(str1);
 
-//boolean
+//--------------------------boolean----------------------------
+// The Boolean type represents the two values - true and false. The bool keyword uses to denote Boolean Type. The numeric values 1 and 0 cannot be used to represent the true or false value.
 bool G =false;
 print(G);
 var c ;
 print(c);
-
-// string to int
+//---------------------------List--------------------------------
+//In Dart, The list is a collection of the ordered objects (value). The concept of list is similar to an array. 
+//An array is defined as a collection of the multiple elements in a single variable. The elements in the list are separated by the comma enclosed in the square bracket[].
+var list = [1,2,3];
+print(list);
+print(list.runtimeType);
+//----------------------------maps-------------------------------
+//The maps type is used to store values in key-value pairs. Each key is associated with its value. The key and value can be any type. In Map, the key must be unique, 
+//but a value can occur multiple times. The Map is defined by using curly braces ({}), and comma separates each pair.
+var student= {'Name':'abrar','age':'20'};
+print(student);
+//-------------------Runes-------------
+ var heart_symbol = '\u2665';  
+    var laugh_symbol = '\u{1f600}';  
+    print(heart_symbol);  
+    print(laugh_symbol);  
+// -------------------string to int--------------
 int x =10;
 int y = int.parse("57");
 print(x+y);
 
-//string to double 
+//-------------------string to double------------ 
 int o = 23;
 double z = double.parse("39.02");
 print(z-o);
 
-// int to string
+// -------------------int to string--------------
 String h = 12.toString();
 print(h.runtimeType);
 
-//double to string
+//--------------------double to string-------------
 String k = 12.23.toString();
 print(k.runtimeType);
 
@@ -45,6 +67,7 @@ String n = "Abrar Ali";
 print("My name is $n");
 // if we find the the length of string use ${variable_name.lenght};
 print("String Size is  ${n.length}");
+
 //---------------------------------------------------------------------------------------------------------------
 // var keyword
 // A way to declare a variable without specifying its type.
@@ -91,3 +114,4 @@ print(d);
 print(d.runtimeType);
 
 }
+
