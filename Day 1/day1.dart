@@ -72,7 +72,18 @@ print("String Size is  ${n.length}");
 
 //------------------------------------------Keywords---------------------------------------------------------------------
 // ---------------------------------------var keyword--------------------------------------------------------------------
+//----------------------------------------Varialbe----------------------------------------------------------------------
+//Variable is used to store the value and refer the memory location in computer memory. When we create a variable, the Dart compiler allocates some space in memory. 
 // A way to declare a variable without specifying its type.
+
+// -----------------------------Rule to create Variable-------------------------------->
+
+//--The variable cannot contain special characters such as whitespace, mathematical symbol, runes, Unicode character, and keywords.
+//--The first character of the variable should be an alphabet([A to Z],[a to z]). Digits are not allowed as the first character.
+//--Variables are case sensitive. For example, - variable age and AGE are treated differently.
+//--The special character such as #, @, ^, &, * are not allowed expect the underscore(_) and the dollar sign($).
+//--The variable name should be retable to the program and readable.
+
 // For example 
 //------------------------Int-----------------
 var t = 12;
