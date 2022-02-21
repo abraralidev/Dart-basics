@@ -35,11 +35,13 @@ print(list.runtimeType);
 //but a value can occur multiple times. The Map is defined by using curly braces ({}), and comma separates each pair.
 var student= {'Name':'abrar','age':'20'};
 print(student);
-//-------------------Runes-------------
+//---------------------------Runes------------------------------
+//As we know that, the strings are the sequence of Unicode UTF-16 code units. Unicode is a technique which is used to describe a unique numeric value for each digit, letter, and symbol.
+// Since Dart Runes are the special string of Unicode UTF-32 units. It is used to represent the special syntax.
  var heart_symbol = '\u2665';  
-    var laugh_symbol = '\u{1f600}';  
-    print(heart_symbol);  
-    print(laugh_symbol);  
+ var laugh_symbol = '\u{1f600}';  
+ print(heart_symbol);  
+ print(laugh_symbol);  
 // -------------------string to int--------------
 int x =10;
 int y = int.parse("57");
