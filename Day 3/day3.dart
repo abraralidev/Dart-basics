@@ -159,8 +159,31 @@ print(name !is String);
 // 5- Logical Operators
 
 // Types of logical operators 
+
 // 1- && AND Operator
+print("AND Operator");
+var q= 100;
+var w= 100;
+var e= 200;
+var r= 200;
+//  true && true = ture
+print((q==w)&&(e==r));
+//  ture && false = false 
+print((q==w)&&(w==r));
+//  false && ture = false
+print((q==e)&&(e==r));
+//  false && false = false 
+print((q==e)&&(w==r));
+
 // 2- || OR Operator
+/*
+ true || true = ture
+ ture || false = ture 
+ false || ture = ture
+ false || false = false 
+*/
+
+// 3- !  NOT Operator 
 // 
 //------------------------------------------------------------------------------------------------------------------------------------>
 // 6- Bitwise Operator
