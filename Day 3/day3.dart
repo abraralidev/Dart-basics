@@ -221,10 +221,26 @@ print('>> (Shift right)');
 
 //------------------------------------------------------------------------------------------------------------------------------------>
 // 7- Conditional Operators
+// The Conditional Operator is same as if-else statement and provides similar functionality as conditional statement. 
+//It is the second form of " if-else statement ". It is also identified as "Ternary Operator".
 
+// Syntax 1-
+// condition ? exp1 : exp2
+
+// Syntax 2-
+// exp1 ?? exp2
+
+// for example
+print("the example of conditional operators");
+var one = 21;
+var two = 10;
+var three= one?? two; // If the exp1 is not-null, returns its value, otherwise returns the exp2's value.
+print(three);
 
 //------------------------------------------------------------------------------------------------------------------------------------>
 // 8- Casecade notation(..) Operators
+// The Cascade notation Operators (..) is used to evaluate a series of operation on the same object. 
+//It is an identical as the method chaining that avoids several of steps, and we don't need store results in temporary variables.
 
   //------------------------- Statements----------------------------
 
