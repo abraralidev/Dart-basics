@@ -194,8 +194,35 @@ print(!(q==w));
 print(!(q==e));
 //------------------------------------------------------------------------------------------------------------------------------------>
 // 6- Bitwise Operator
+// The Bitwise operators perform operation bit by bit on the value of the two operands.
+var d=25;
+var f=20;
+var j=0;
+// & (Binary AND)
+print('& (Binary AND)');
+  print("d & f = ${d&f}");  
+// | (Binary OR)
+print('| (Binary OR)');
+  print("d | f = ${d|f}");  
+// ^ (Binary XOR)
+print('^ (Binary XOR)');
+ print("d ^ f = ${d^f}"); 
+// ~ ( Ones compliment)
+print('~ (Ones cpmpliment)');
+ print("~d = ${(~d)}");  
+// << (Shift left)
+print('<< (Shift left)');
+  j = d <<2;  
+  print("c<<1= ${j}");  
+// >> (Shift right)
+print('>> (Shift right)');
+ j = d >>2;  
+  print("c>>1= ${j}");
+
 //------------------------------------------------------------------------------------------------------------------------------------>
 // 7- Conditional Operators
+
+
 //------------------------------------------------------------------------------------------------------------------------------------>
 // 8- Casecade notation(..) Operators
 
