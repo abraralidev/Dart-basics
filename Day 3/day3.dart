@@ -176,15 +176,22 @@ print((q==e)&&(e==r));
 print((q==e)&&(w==r));
 
 // 2- || OR Operator
-/*
- true || true = ture
- ture || false = ture 
- false || ture = ture
- false || false = false 
-*/
+print("OR Operator");
+//  true || true = ture
+print((q==w)||(e==r));
+//  ture || false = ture
+print((q==w)||(w==r)); 
+//  false || ture = ture
+print((q==e)||(e==r));
+//  false || false = false 
+print((q==e)||(w==r));
 
 // 3- !  NOT Operator 
-// 
+print("NOT Operator");
+// true = false
+print(!(q==w));
+// false = true
+print(!(q==e));
 //------------------------------------------------------------------------------------------------------------------------------------>
 // 6- Bitwise Operator
 //------------------------------------------------------------------------------------------------------------------------------------>
