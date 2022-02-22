@@ -8,7 +8,7 @@ void main(){
 
 //  --Types of Operators
 // Dart supports the following types of operators.
-
+//------------------------------------------------------------------------------------------------------------------------------------>
 // 1- Arithmetic Operators
 // for example
 int x=10 , y=5 ;
@@ -51,17 +51,15 @@ int u = 12;
    print(u--);              //The postfix value
              
 
-
+//------------------------------------------------------------------------------------------------------------------------------------>
 // 2- Assignment Operators
 //Assignment operators are used to assigning value to the variables. We can also use it combined with the arithmetic operators.
-// = (Assignment Operator)
-
 // <<=(Left shift AND assign)
 // >>=(Right shift AND assign)
 // &=(Bitwise AND assign)
 // ^=(Bitwise exclusive OR and assign)
 // |=(Bitwise inclusive OR and assign)
-//------------------------------------------------------------------------------------------------------------------------------------>
+
  print("Example of Assignment operators");  
     
   var n1 = 10;  
@@ -87,7 +85,7 @@ int u = 12;
   n1%=n2;  
   print("n1%=n2 = ${n1}");   
 
-
+//------------------------------------------------------------------------------------------------------------------------------------>
 // 3- Relational Operators
 // Relational operators or Comparison operators are used to making a comparison between two expressions and operands
 // 1- >(greater than)
@@ -140,7 +138,7 @@ if (h!=g) {
 } else {
   print(false);
 }
-
+//------------------------------------------------------------------------------------------------------------------------------------>
 // 4- Type test Operators
 
 // The Type Test Operators are used to testing the types of expressions at runtime. 
@@ -156,15 +154,21 @@ print(num is int);
 // 3- is! ( It returns TRUE if the object has not specified type. )
 print(name !is String);
 
+//------------------------------------------------------------------------------------------------------------------------------------>
+
 // 5- Logical Operators
+
 // Types of logical operators 
 // 1- && AND Operator
 // 2- || OR Operator
 // 
-
+//------------------------------------------------------------------------------------------------------------------------------------>
 // 6- Bitwise Operator
+//------------------------------------------------------------------------------------------------------------------------------------>
 // 7- Conditional Operators
+//------------------------------------------------------------------------------------------------------------------------------------>
 // 8- Casecade notation(..) Operators
+
   //------------------------- Statements----------------------------
 
 //   // if statement 
