@@ -48,49 +48,156 @@ int z = 10;
 print(--z);                  //The prefix value  
   
 int u = 12;                                           
-   print(u--);    }           //The postfix value  
+   print(u--);              //The postfix value
+             
 
 
 // 2- Assignment Operators
+//Assignment operators are used to assigning value to the variables. We can also use it combined with the arithmetic operators.
+// = (Assignment Operator)
+
+// <<=(Left shift AND assign)
+// >>=(Right shift AND assign)
+// &=(Bitwise AND assign)
+// ^=(Bitwise exclusive OR and assign)
+// |=(Bitwise inclusive OR and assign)
+//------------------------------------------------------------------------------------------------------------------------------------>
+ print("Example of Assignment operators");  
+    
+  var n1 = 10;  
+  var n2 = 5;  
+
+// +=(Add and Assign)  
+  n1+=n2;  
+  print("n1+=n2 = ${n1}");  
+
+// -=(Subtract and Assign)
+  n1-=n2;  
+  print("n1-=n2 = ${n1}");  
+
+// *=(Multiply and Assign)    
+  n1*=n2;  
+  print("n1*=n2 = ${n1}");  
+
+// ~/=(Division and Assign)    
+  n1~/=n2;  
+  print("n1~/=n2 = ${n1}");  
+
+// %=(Modulus and Assign)
+  n1%=n2;  
+  print("n1%=n2 = ${n1}");   
 
 
 // 3- Relational Operators
+// Relational operators or Comparison operators are used to making a comparison between two expressions and operands
+// 1- >(greater than)
+print('example of >');
+int h=10;
+int g=5;
+if (h>g) {
+  print(true);
+  
+} else {
+  print(false);
+}
+// 2- <(less than)
+print('example of <');
+if (h<g) {
+  print(true);
+  
+} else {
+  print(false);
+}
+// 3- >=(greater than or equal to)
+print('example of >=');
+if (h>=g) {
+  print(true);
+  
+} else {
+  print(false);
+}
+// 4- <=(less than or equal)
+print('example of <=');
+if (h<=g) {
+  print(true);
+  
+} else {
+  print(false);
+}
+// 5- ==(is equal to)
+print('example of ==');
+if (h==g) {
+  print(true);
+  
+} else {
+  print(false);
+}
+// 6- !=(not equal to)
+//print('example of (!= ) not equal to');
+if (h!=g) {
+  print(true);
+  
+} else {
+  print(false);
+}
+
 // 4- Type test Operators
+
+// The Type Test Operators are used to testing the types of expressions at runtime. 
+// 1- as ( it is used for typecast )
+print("as ( it is used for typecast )");
+var num= 10;
+var name= "Abrar";
+// print(num as int);
+// 2- is (	It returns TRUE if the object has specified type. )
+print("(Is)");
+print(num is int);
+
+// 3- is! ( It returns TRUE if the object has not specified type. )
+print(name !is String);
+
 // 5- Logical Operators
+// Types of logical operators 
+// 1- && AND Operator
+// 2- || OR Operator
+// 
+
 // 6- Bitwise Operator
 // 7- Conditional Operators
 // 8- Casecade notation(..) Operators
   //------------------------- Statements----------------------------
 
 //   // if statement 
-//   int a = 5;
-//  if (a==5) {
-//    print(true);
-//  }
+  int a = 5;
+ if (a==5) {
+   print(true);
+ }
 //   // if else statement
-//   int b = 10;
-//   if (b==10){
-//     print(true);
-//   }else
-//   {
-//     print(false);
-//   }
+  int b = 10;
+  if (b==10){
+    print(true);
+  }else
+  {
+    print(false);
+  }
 //     // if else if statement
 //  //for example
-// var marks = 74;     
-// if(marks > 85)  
-// {  
-//        print("Excellent");  
-// }  
-//  else if(marks>75)  
-// {  
-//       print("Very Good");  
-// }   
-// else if(marks>65)  
-// {  
-//       print("Good");  
-// }  
-//  else  
-//  {  
-//       print("Average");  
-// }           
+var marks = 74;     
+if(marks > 85)  
+{  
+       print("Excellent");  
+}  
+ else if(marks>75)  
+{  
+      print("Very Good");  
+}   
+else if(marks>65)  
+{  
+      print("Good");  
+}  
+ else  
+ {  
+      print("Average");  
+}           
+
+}
