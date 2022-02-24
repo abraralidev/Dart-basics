@@ -31,6 +31,20 @@ for (i; i <= 5; i++) {
 print("The sum is : ${sum}");  
 
 // 3- while loop
+
+// Syntax of while loop
+// while(condition){  
+//        //statement(s);  
+//       // Increment (++) or Decrement (--) Operation;  
+// } 
+// Example of while loop.
+    int j = 1;  
+    while (j <= 5)  
+    {  
+        print( j);  
+        ++j;  
+    }  
+ 
 // 4- do-while loop
 
 }
