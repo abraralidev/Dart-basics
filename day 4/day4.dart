@@ -44,7 +44,6 @@ print("The sum is : ${sum}");
         print( j);  
         ++j;  
     }  
- 
-// 4- do-while loop
+
 
 }
