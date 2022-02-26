@@ -47,4 +47,15 @@ print("The loop is terminated");
 // We are calling a function and storing a result in variable c  
 var c = sum(30,20);  
 print("The sum of two numbers is: ${c}");  
+
+// 2nd Function
+print("2nd function");
+int sub(int x, int y ){
+  int z;
+  z= x- y;
+  return z;
+}
+  var z=sub(20, 10);
+print("The sub of x and y : ${z}");
+
 }  
