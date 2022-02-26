@@ -58,4 +58,19 @@ int sub(int x, int y ){
   var z=sub(20, 10);
 print("The sub of x and y : ${z}");
 
-}  
+  
+
+// Dart Anonymous Function
+// dart anonymous function behaves the same as a regular functions the only difference is that i does not have a name with it.
+//syntax
+//(parameter_list){
+// statments
+//}  
+//example
+var list=['Abrar','Ali','Haseeb' ];
+print("Example of Anonymous function ");
+list.forEach((element) {
+  print('${list.indexOf(element)}:$element');
+});
+
+}
