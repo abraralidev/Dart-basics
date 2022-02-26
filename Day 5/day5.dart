@@ -14,4 +14,37 @@ do{
   
 }while(i<=20);  
 print("The loop is terminated");  
+  
+
+// --------------------------------------------dart Function---------------------------------------------
+//Dart function is a set of codes that together perform a specific task. It is used to break the large code into smaller modules and reuse it when needed.
+// Functions make the program more readable and easy to debug. It improves the modular approach and enhances the code reusability.
+
+// Defining a Function
+//A function can be defined by providing the name of the function with the appropriate parameter and return type. A function contains a set of statements which are called function body.
+// Syntax:
+
+// return_type func_name (parameter_list):  
+// {  
+//     //statement(s)  
+//    return value;  
+// }  
+// " return_type "      - It can be any data type such as void, integer, float, etc. The return type must be matched with the returned value of the function.
+// " func_name   "     - It should be an appropriate and valid identifier.
+//  "parameter_list"    - It denotes the list of the parameters, which is necessary when we called a function.
+//  "return value"      - A function returns a value after complete its execution.
+
+// Example of Function
+ print("Example of add two number using the function");    
+  // Creating a Function  
+  
+  int sum(int a, int b){  
+            // function Body  
+            int result;  
+            result = a+b;  
+            return result;  
+}  
+// We are calling a function and storing a result in variable c  
+var c = sum(30,20);  
+print("The sum of two numbers is: ${c}");  
 }  
