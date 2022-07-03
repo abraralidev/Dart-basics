@@ -9,10 +9,7 @@
 // 3- Polymorphism
 // Polymorphism is an object-oriented programming concept where one thing has many forms. It can be two types - Runtime polymorphism and Compile time polymorphism. 
 
-// 4- Interfaces
-// 
-
-// 5- Abstract class
+// 4- Abstract class
 // A class that contains or more abstract method is called Abstract class
 // syntax of Abstract class 
 // abstract class classname{
