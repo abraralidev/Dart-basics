@@ -1,4 +1,42 @@
 void main(List<String> args) {
+  
+//---------------------------------------------Control Flow Statements------------------------------------------------------------------> 
+  //------------------------- Statements----------------------------
+
+//   // if statement 
+  int a = 5;
+ if (a==5) {
+   print(true);
+ }
+//   // if else statement
+  int b = 10;
+  if (b==10){
+    print(true);
+  }else
+  {
+    print(false);
+  }
+//     // if else if statement
+//  //for example
+var marks = 74;     
+if(marks > 85)  
+{  
+       print("Excellent");  
+}  
+ else if(marks>75)  
+{  
+      print("Very Good");  
+}   
+else if(marks>65)  
+{  
+      print("Good");  
+}  
+ else  
+ {  
+      print("Average");  
+}           
+
+}
 //---------------------------------------Loops in dart------------------------------------
 // loop in programming are use to perform operations for multiple times.
 // 1- for loop
