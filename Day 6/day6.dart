@@ -18,7 +18,7 @@
 
 // Syntax of Class 
 // class Classname{
-//  //field
+
 //  //getter/setter
 //  //Constructor
 //  //Functions
