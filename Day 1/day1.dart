@@ -22,8 +22,7 @@ print(str1);
 // The Boolean type represents the two values - true and false. The bool keyword uses to denote Boolean Type. The numeric values 1 and 0 cannot be used to represent the true or false value.
 bool G =false;
 print(G);
-var c ;
-print(c);
+
 //---------------------------List--------------------------------
 //In Dart, The list is a collection of the ordered objects (value). The concept of list is similar to an array. 
 //An array is defined as a collection of the multiple elements in a single variable. The elements in the list are separated by the comma enclosed in the square bracket[].
