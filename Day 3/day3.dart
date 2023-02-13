@@ -52,38 +52,38 @@ int u = 12;
              
 
 //------------------------------------------------------------------------------------------------------------------------------------>
-// 2- Assignment Operators
-//Assignment operators are used to assigning value to the variables. We can also use it combined with the arithmetic operators.
-// <<=(Left shift AND assign)
-// >>=(Right shift AND assign)
-// &=(Bitwise AND assign)
-// ^=(Bitwise exclusive OR and assign)
-// |=(Bitwise inclusive OR and assign)
+// // 2- Assignment Operators
+// //Assignment operators are used to assigning value to the variables. We can also use it combined with the arithmetic operators.
+// // <<=(Left shift AND assign)
+// // >>=(Right shift AND assign)
+// // &=(Bitwise AND assign)
+// // ^=(Bitwise exclusive OR and assign)
+// // |=(Bitwise inclusive OR and assign)
 
- print("Example of Assignment operators");  
+//  print("Example of Assignment operators");  
     
-  var n1 = 10;  
-  var n2 = 5;  
+//   var n1 = 10;  
+//   var n2 = 5;  
 
-// +=(Add and Assign)  
-  n1+=n2;  
-  print("n1+=n2 = ${n1}");  
+// // +=(Add and Assign)  
+//   n1+=n2;  
+//   print("n1+=n2 = ${n1}");  
 
-// -=(Subtract and Assign)
-  n1-=n2;  
-  print("n1-=n2 = ${n1}");  
+// // -=(Subtract and Assign)
+//   n1-=n2;  
+//   print("n1-=n2 = ${n1}");  
 
-// *=(Multiply and Assign)    
-  n1*=n2;  
-  print("n1*=n2 = ${n1}");  
+// // *=(Multiply and Assign)    
+//   n1*=n2;  
+//   print("n1*=n2 = ${n1}");  
 
-// ~/=(Division and Assign)    
-  n1~/=n2;  
-  print("n1~/=n2 = ${n1}");  
+// // ~/=(Division and Assign)    
+//   n1~/=n2;  
+//   print("n1~/=n2 = ${n1}");  
 
-// %=(Modulus and Assign)
-  n1%=n2;  
-  print("n1%=n2 = ${n1}");   
+// // %=(Modulus and Assign)
+//   n1%=n2;  
+//   print("n1%=n2 = ${n1}");   
 
 //------------------------------------------------------------------------------------------------------------------------------------>
 // 3- Relational Operators
@@ -193,31 +193,31 @@ print(!(q==w));
 // false = true
 print(!(q==e));
 //------------------------------------------------------------------------------------------------------------------------------------>
-// 6- Bitwise Operator
-// The Bitwise operators perform operation bit by bit on the value of the two operands.
-var d=25;
-var f=20;
-var j=0;
-// & (Binary AND)
-print('& (Binary AND)');
-  print("d & f = ${d&f}");  
-// | (Binary OR)
-print('| (Binary OR)');
-  print("d | f = ${d|f}");  
-// ^ (Binary XOR)
-print('^ (Binary XOR)');
- print("d ^ f = ${d^f}"); 
-// ~ ( Ones compliment)
-print('~ (Ones cpmpliment)');
- print("~d = ${(~d)}");  
-// << (Shift left)
-print('<< (Shift left)');
-  j = d <<2;  
-  print("c<<1= ${j}");  
-// >> (Shift right)
-print('>> (Shift right)');
- j = d >>2;  
-  print("c>>1= ${j}");
+// // 6- Bitwise Operator
+// // The Bitwise operators perform operation bit by bit on the value of the two operands.
+// var d=25;
+// var f=20;
+// var j=0;
+// // & (Binary AND)
+// print('& (Binary AND)');
+//   print("d & f = ${d&f}");  
+// // | (Binary OR)
+// print('| (Binary OR)');
+//   print("d | f = ${d|f}");  
+// // ^ (Binary XOR)
+// print('^ (Binary XOR)');
+//  print("d ^ f = ${d^f}"); 
+// // ~ ( Ones compliment)
+// print('~ (Ones cpmpliment)');
+//  print("~d = ${(~d)}");  
+// // << (Shift left)
+// print('<< (Shift left)');
+//   j = d <<2;  
+//   print("c<<1= ${j}");  
+// // >> (Shift right)
+// print('>> (Shift right)');
+//  j = d >>2;  
+//   print("c>>1= ${j}");
 
 //------------------------------------------------------------------------------------------------------------------------------------>
 // 7- Conditional Operators
