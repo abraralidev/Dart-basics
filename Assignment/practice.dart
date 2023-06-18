@@ -1,4 +1,9 @@
 void main() {
+
+  //command for run program 
+  // dart run lib/dart_application_1.dart 
+
+  
   // Practice Dart - exercises
 
 //============== Exercise 1
